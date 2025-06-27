@@ -1,0 +1,6 @@
+site_name: Wiki Critique
+theme:
+  name: material
+
+nav:
+  - Accueil: index.md
