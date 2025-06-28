@@ -1,8 +1,8 @@
 site_name: Wiki Critique
 theme:
   name: material
-  logo: assets/boussole.png
-  favicon: assets/boussole_noire.png
+  logo: img/boussole.png
+  favicon: img/boussole_noire.ico
   font:
     text: Averia Serif Libre
   palette:
@@ -22,10 +22,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  custom_dir: docs/stylesheets
+
+extra_css:
+  - stylesheets/custom.css
 
 nav:
-  - Accueil: index.md
+  - Introduction: index.md
   - Personnalités: personnalites.md
-  - Courants: courants.md
+  - Courants de pensée: courants.md
   - Contre-arguments: contre_arguments.md
   - Évènements historiques majeurs occultés: evenements_historiques.md
+  - Notions et vocabulaire: notions.md
