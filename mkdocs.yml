@@ -1,6 +1,31 @@
 site_name: Wiki Critique
 theme:
   name: material
+  logo: assets/boussole.png
+  favicon: assets/boussole_noire.png
+  font:
+    text: Averia Serif Libre
+  palette:
+    
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 nav:
   - Accueil: index.md
+  - Personnalités: personnalites.md
+  - Courants: courants.md
+  - Contre-arguments: contre_arguments.md
+  - Évènements historiques majeurs occultés: evenements_historiques.md
