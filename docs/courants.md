@@ -8,24 +8,24 @@ On les connaît parfois de nom, on peut avoir une idée vague de leurs arguments
 
     Abolition de toute hiérarchie, autogestion.
 
-    [:octicons-arrow-right-24: Plus de détails](courants/)
+    [:octicons-arrow-right-24: Plus de détails](courants/anarchisme.md)
 
 - __communisme__
 
-    Abolition des classes, collectivisation des moyens de production, égalité économique et sociale.
+    Abolition de la propriété privée, collectivisation des moyens de production, égalité économique et sociale, abolition des classes.
 
-    [:octicons-arrow-right-24: Plus de détails](courants/)
+    [:octicons-arrow-right-24: Plus de détails](courants/communisme.md)
 
 - __municipalisme libertaire__
 
     Communes autonomes et autogérées, fédérées entre elles.
 
-    [:octicons-arrow-right-24: Plus de détails](courants/)
+    [:octicons-arrow-right-24: Plus de détails](courants/municipalisme_libertaire.md)
 
 - __social-démocratie__
 
-    Atténuer les excès du capitalisme par des réformes sociales et économiques dans le cadre d'une démocratie représentative.
+    Atténuer les excès du capitalisme par des réformes sociales et économiques dans le cadre d'une démocratie représentative. S'allie avec la bourgeoisie dès qu'il faut réprimer une menace révolutionnaire.
 
-    [:octicons-arrow-right-24: Plus de détails](courants/)
+    [:octicons-arrow-right-24: Plus de détails](courants/social_democratie.md)
 
 </div>

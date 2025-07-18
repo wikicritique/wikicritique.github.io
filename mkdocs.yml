@@ -39,8 +39,8 @@ markdown_extensions:
 
 nav:
   - Introduction: index.md
-  - Personnalités: personnalites.md
-  - Courants de pensée: courants.md
   - Contre-arguments: contre_arguments.md
-  - Évènements historiques majeurs occultés: evenements_historiques.md
+  - Évènements historiques majeurs peu connus: evenements.md
+  - Personnalités majeures peu connues: personnalites.md
+  - Courants de pensée: courants.md
   - Notions et vocabulaire: notions.md
