@@ -1,31 +1,45 @@
-# Évènements historiques majeurs, occultés de la "culture générale"
+# {{ get_data().evenements.titre }}
 
-L'Histoire "dominante" (telle qu'enseignée à l'école ou mentionnée dans les médias grand public), fait volontairement l'impasse sur certains évènements, parce qu'ils sont embarrassants pour la classe dominante.
+{{ get_data().evenements.intro }}
 
 ## 19ème siècle
 
 <div class="grid cards" markdown>
-
--   __1871 : Le gouvernement français fusille 10 000 de ses citoyens__
+{% for item in get_data().evenements.data if 1800 <= item.date < 1900 %}
+- ### __« {{ item.titre }} »__
 
     ---
 
-    Les Parisiens établissent un gouvernement autonome inédit (séparation de l'Église et de l'État, égalité femmes/hommes, journée de 10h...) :octicons-arrow-right-24: le gouvernement français réprime les insurgés avec une violence inouïe.
+    {{ item.resume }}
 
-    [:octicons-arrow-right-24: Lire plus](evenements/commune_de_paris.md)
-
+    [:octicons-arrow-right-24: Plus d'éléments]({{ item.lien }})
+{% endfor %}
 </div>
 
 ## 20ème siècle
 
 <div class="grid cards" markdown>
-
--   __1919 : Révolution en cours en Allemagne, le PS allemand assassine Rosa Luxemburg__
+{% for item in get_data().evenements.data if 1900 <= item.date < 2000 %}
+- ### __« {{ item.titre }} »__
 
     ---
 
-    À la fin de la guerre, les marins et les ouvriers allemands se rebellent, le tsar abdique. La révolution est en cours : Rosa Luxemburg milite pour une république des conseils d'ouvriers, socialiste. :octicons-arrow-right-24: Le SPD, parti de gauche social-démocrate, recrute un groupe paramilitaire pour assassiner Rosa Luxemburg et tuer la révolution dans l'oeuf.
+    {{ item.resume }}
 
-    [:octicons-arrow-right-24: Lire plus](evenements/revolution_allemande.md)
+    [:octicons-arrow-right-24: Plus d'éléments]({{ item.lien }})
+{% endfor %}
+</div>
 
+## 21ème siècle
+
+<div class="grid cards" markdown>
+{% for item in get_data().evenements.data if item.date >= 2000 %}
+- ### __« {{ item.titre }} »__
+
+    ---
+
+    {{ item.resume }}
+
+    [:octicons-arrow-right-24: Plus d'éléments]({{ item.lien }})
+{% endfor %}
 </div>

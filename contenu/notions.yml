@@ -1,0 +1,47 @@
+titre: Notions et vocabulaire
+intro: >
+  Une bonne partie du côté ardu des discours critiques est liée à l'emploi de notions et vocabulaire spécifiques. 
+  Voici les principaux, expliqués le plus clairement possible.
+data:
+  - nom: aliénation
+    definition: >
+      Processus par lequel les travailleurs deviennent étrangers à leur propre travail et à eux-mêmes en raison des structures économiques capitalistes.
+    lien: notions/alienation.md
+
+  - nom: bourgeoisie
+    definition: Classe sociale qui possède les moyens de production.
+    lien: notions/bourgeoisie.md
+
+  - nom: capital
+    definition: Richesses accumulées, utilisées pour produire davantage de richesses.
+    lien: notions/capital.md
+
+  - nom: capitalisme
+    definition: >
+      Système économique où les moyens de production sont privés et où l'objectif principal est l'accumulation de profit.
+    lien: notions/capitalisme.md
+
+  - nom: dialectique
+    definition: Qui se base sur les conflits et contradictions.
+    lien: notions/dialectique.md
+
+  - nom: lutte des classes
+    definition: >
+      Conflit entre la bourgeoisie, qui détient le capital, et le prolétariat, qui vend sa force de travail.
+    lien: notions/lutte_des_classes.md
+
+  - nom: matérialisme
+    definition: >
+      C'est la *matière* (et notamment les modes de production), et non les *idées*, qui font l'Histoire.
+    lien: notions/materialisme.md
+
+  - nom: moyens de production
+    definition: >
+      Ressources, comme les usines, les machines et les terres, utilisées pour produire des biens et des services dans une économie.
+    lien: notions/moyens_de_production.md
+
+  - nom: socialisme
+    definition: >
+      Système socio-économique visant à l'abolition de la propriété privée des moyens de production pour une distribution plus égalitaire des richesses 
+      (n'a rien à voir avec le PS actuel).
+    lien: notions/socialisme.md

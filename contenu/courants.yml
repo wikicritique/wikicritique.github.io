@@ -1,0 +1,22 @@
+titre: Courants de pensée
+intro: >
+  On les connaît parfois de nom, on peut avoir une idée vague de leurs arguments et réflexions, ou pas du tout. 
+  Cette page vise à offrir un aperçu concis des principaux courants de pensée critiques.
+data:
+  - nom: anarchisme
+    definition: Abolition de toute hiérarchie, autogestion.
+    lien: courants/anarchisme.md
+
+  - nom: communisme
+    definition: Abolition de la propriété privée, collectivisation des moyens de production, égalité économique et sociale, abolition des classes.
+    lien: courants/communisme.md
+
+  - nom: municipalisme libertaire
+    definition: Communes autonomes et autogérées, fédérées entre elles.
+    lien: courants/municipalisme_libertaire.md
+
+  - nom: social-démocratie
+    definition: >
+      Atténuer les excès du capitalisme par des réformes sociales et économiques dans le cadre d'une démocratie représentative. 
+      S'allie avec la bourgeoisie dès qu'il faut réprimer une menace révolutionnaire.
+    lien: courants/social_democratie.md
