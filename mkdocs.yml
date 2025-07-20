@@ -5,6 +5,7 @@ theme:
   favicon: img/boussole_noire.ico
   font:
     text: Averia Serif Libre
+  language: fr
   palette:
     
     # Palette toggle for light mode
