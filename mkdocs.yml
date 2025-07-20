@@ -23,6 +23,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   custom_dir: docs/stylesheets
+  features:
+    - navigation.instant
+  hide:
+    toc: true
 
 extra_css:
   - stylesheets/custom.css
@@ -36,6 +40,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+    - search
+    - macros
 
 nav:
   - Introduction: index.md

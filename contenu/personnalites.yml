@@ -1,0 +1,10 @@
+titre:  Personnalités majeures, peu ou mal connues
+intro: On les connaît parfois de nom, on peut avoir une idée vague de leurs idées, ou pas du tout. Cette page vise à offrir un aperçu concis de la pensée des principaux penseurs et penseuses critiques.
+data:
+  - nom: Rosa Luxemburg
+    presentation: Militante et théoricienne marxiste, elle s'opposait à la guerre de 1914.
+    lien: personnalites/rosa_luxemburg.md
+
+  - nom: Karl Marx
+    presentation: Il a posé les bases, reprises ensuite par de nombreux courants.
+    lien: personnalites/karl_marx.md
