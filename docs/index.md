@@ -5,15 +5,11 @@
   }
 </style>
 
-![](img/boussole_noire.png){: style="display: block;margin-left: auto;margin-right: auto;width: 15%; margin-bottom: 5%;margin-top: -5%;"}
+![](img/boussole_noire.png){: style="display: block;margin-left: auto;margin-right: auto;width: 15%; margin-bottom: 5%;margin-top: -6%;"}
 
-Ce wiki vise, via des informations factuelles et sourcées, à :
-
-- fournir des arguments et contre-arguments aux discours dominants que l'on peut entendre tous les jours
-
-- déconstruire la pensée selon laquelle les gouvernements (notamment occidentaux) oeuvrent pour le bien du monde et de leurs citoyens
-
-- rendre accessibles les pensées critiques
+Si c'est toujours mieux de lire les grand.e.s théoricien.ne.s, d'étudier les classiques et d'approfondir, tout le monde n'en a pas le temps.
+Ce wiki se veut comme une *boîte à outils* critique.
+Il vise à fournir de la façon la plus simple et concise possible des repères et arguments contre l'ordre dominant.
 
 ### Contenu
 
