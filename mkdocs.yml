@@ -47,7 +47,7 @@ plugins:
     - macros
 
 nav:
-  - Introduction: index.md
+  - C'est quoi ce wiki ?: index.md
   - Contre-arguments: contre_arguments.md
   - Évènements historiques majeurs peu connus: evenements.md
   - Personnalités majeures peu connues: personnalites.md

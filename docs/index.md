@@ -1,4 +1,11 @@
-# Introduction
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
+
+![](img/boussole_noire.png){: style="display: block;margin-left: auto;margin-right: auto;width: 15%; margin-bottom: 5%;margin-top: -5%;"}
 
 Ce wiki vise, via des informations factuelles et sourcées, à :
 
