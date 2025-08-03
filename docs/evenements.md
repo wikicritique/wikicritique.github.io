@@ -1,3 +1,5 @@
+![](img/evenements.png){: style="display: block;margin-left: auto;margin-right: auto;width: 30%;"}
+
 # {{ get_data().evenements.titre }}
 
 {{ get_data().evenements.intro }}

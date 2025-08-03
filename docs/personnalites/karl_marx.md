@@ -12,7 +12,7 @@
 
     *<span class="page-count">144</span> pages*
 
-    ![](https://editionssociales.fr/wp-content/uploads/2020/10/DecouvrirMarx-Couv.jpg){: style="display: block;margin-left: auto;margin-right: auto;width: 50%;"}
+    ![](https://editionssociales.fr/wp-content/uploads/2020/10/DecouvrirMarx-Couv.jpg){: style="display: block;margin-left: auto;margin-right: auto;width: 40%;"}
     
 
 -   __Manifeste du parti communiste__
@@ -21,6 +21,6 @@
 
     *<span class="page-count">96</span> pages*
 
-    ![](https://images.centprod.com/3025594738709/niOCTJwMKu7_whxfIJm0B9ibn0A-t_LG2MO4S7UY6yrwnvqg5Bjmsw-cover-large.jpg){: style="display: block;margin-left: auto;margin-right: auto;width: 50%;"}
+    ![](https://images.centprod.com/3025594738709/niOCTJwMKu7_whxfIJm0B9ibn0A-t_LG2MO4S7UY6yrwnvqg5Bjmsw-cover-large.jpg){: style="display: block;margin-left: auto;margin-right: auto;width: 40%;"}
 
 </div>

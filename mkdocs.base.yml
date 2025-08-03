@@ -1,0 +1,68 @@
+site_name: Wiki Critique
+theme:
+  name: material
+  logo: img/boussole.png
+  favicon: img/boussole_noire.ico
+  font:
+    text: Averia Serif Libre
+  language: fr
+  palette:
+    
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  custom_dir: docs/styles
+  # custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+  hide:
+    toc: true
+
+extra_css:
+  - styles/extra.css
+
+extra_javascript:
+  - js/readingTime.js
+
+extra:
+  generator: false
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+    - search
+    - macros
+    - meta
+
+# nav:
+#   - C'est quoi ce wiki ?: index.md
+#   - Contre-arguments:
+#     - Introduction: contre_arguments.md
+
+#   - Évènements historiques majeurs peu connus: evenements.md
+#   - Personnalités majeures peu connues: personnalites.md
+#   - Courants de pensée: courants.md
+#   - Notions et vocabulaire: notions.md

@@ -1,3 +1,5 @@
+![](img/contre_arguments2.png){: style="display: block;margin-left: auto;margin-right: auto;width: 30%;"}
+
 # {{ get_data().contre_arguments.titre }}
 
 {{ get_data().contre_arguments.intro }}
@@ -10,6 +12,6 @@
 
     {{ item.contre_argument }}
 
-    [:octicons-arrow-right-24: Plus d'éléments]({{ item.lien }})
+    [:octicons-arrow-right-24: Plus d'éléments]({{ 'contre_arguments/' ~ item.id ~ '.md'}})
 {% endfor %}
 </div>

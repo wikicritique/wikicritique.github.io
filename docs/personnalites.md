@@ -1,3 +1,5 @@
+![](img/personnalites.png){: style="display: block;margin-left: auto;margin-right: auto;width: 30%;"}
+
 # {{ get_data().personnalites.titre }}
 
 {{ get_data().personnalites.intro }}

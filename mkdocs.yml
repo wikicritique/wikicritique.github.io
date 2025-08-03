@@ -23,21 +23,31 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  custom_dir: docs/stylesheets
+  custom_dir: docs/styles
+  # custom_dir: overrides
   features:
     - navigation.instant
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
   hide:
     toc: true
 
 extra_css:
-  - stylesheets/custom.css
+  - styles/extra.css
 
 extra_javascript:
   - js/readingTime.js
 
+extra:
+  generator: false
+
 markdown_extensions: 
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -45,11 +55,54 @@ markdown_extensions:
 plugins:
     - search
     - macros
+    - meta
 
+# nav:
+#   - C'est quoi ce wiki ?: index.md
+#   - Contre-arguments:
+#     - Introduction: contre_arguments.md
+
+#   - Évènements historiques majeurs peu connus: evenements.md
+#   - Personnalités majeures peu connues: personnalites.md
+#   - Courants de pensée: courants.md
+#   - Notions et vocabulaire: notions.md
 nav:
-  - C'est quoi ce wiki ?: index.md
+- C'est quoi ce wiki ?: index.md
+- Contre-arguments:
   - Contre-arguments: contre_arguments.md
+  - Les sociétés ont toujours été capitalistes: contre_arguments/toujours_capitaliste.md
+  - Les extrêmes sont dangereux: contre_arguments/extremes.md
+  - Les communistes veulent abolir la propriété c'est n'importe quoi: contre_arguments/propriete_privee.md
+  - On peut pas loger tous les sans-abris, sinon on le ferait: contre_arguments/logement_pour_tous.md
+  - Il y a des racistes mais pas un racisme structurel: contre_arguments/racisme_structurel.md
+  - L'Occident défend les droits de l'Homme: contre_arguments/occident_droits_de_lhomme.md
+  - Les progrès sociaux sont non-violents: contre_arguments/non_violence.md
+  - Le communisme on a essayé, on a vu ce que ça a donné: contre_arguments/communisme_dangereux.md
+  - On est bien obligés de faire des économies: contre_arguments/economies.md
+  - De toute façon on est trop d'humains sur Terre: contre_arguments/trop_sur_terre.md
+  - L'horreur de Gaza est incompréhensible: contre_arguments/gaza.md
+- Évènements historiques majeurs peu connus:
   - Évènements historiques majeurs peu connus: evenements.md
+  - 1871 - Le gouvernement français fusille 10 000 de ses citoyens: evenements/commune_de_paris.md
+  - 1919 - Révolution en cours en Allemagne, le PS allemand assassine Rosa Luxemburg: evenements/revolution_allemande.md
+- Personnalités majeures peu connues:
   - Personnalités majeures peu connues: personnalites.md
+  - Rosa Luxemburg: personnalites/rosa_luxemburg.md
+  - Karl Marx: personnalites/karl_marx.md
+- Courants de pensée:
   - Courants de pensée: courants.md
+  - anarchisme: courants/anarchisme.md
+  - communisme: courants/communisme.md
+  - municipalisme libertaire: courants/municipalisme_libertaire.md
+  - social-démocratie: courants/social_democratie.md
+- Notions et vocabulaire:
   - Notions et vocabulaire: notions.md
+  - aliénation: notions/alienation.md
+  - bourgeoisie: notions/bourgeoisie.md
+  - capital: notions/capital.md
+  - capitalisme: notions/capitalisme.md
+  - dialectique: notions/dialectique.md
+  - lutte des classes: notions/lutte_des_classes.md
+  - matérialisme: notions/materialisme.md
+  - moyens de production: notions/moyens_de_production.md
+  - socialisme: notions/socialisme.md

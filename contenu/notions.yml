@@ -7,41 +7,50 @@ data:
     definition: >
       Processus par lequel les travailleurs deviennent étrangers à leur propre travail et à eux-mêmes en raison des structures économiques capitalistes.
     lien: notions/alienation.md
+    image: img/alienation.png
 
   - nom: bourgeoisie
     definition: Classe sociale qui possède les moyens de production.
     lien: notions/bourgeoisie.md
+    image: img/bourgeoisie.png
 
   - nom: capital
     definition: Richesses accumulées, utilisées pour produire davantage de richesses.
     lien: notions/capital.md
+    image: img/capital.png
 
   - nom: capitalisme
     definition: >
       Système économique où les moyens de production sont privés et où l'objectif principal est l'accumulation de profit.
     lien: notions/capitalisme.md
+    image:
 
   - nom: dialectique
     definition: Qui se base sur les conflits et contradictions.
     lien: notions/dialectique.md
+    image: img/dialectique.png
 
   - nom: lutte des classes
     definition: >
       Conflit entre la bourgeoisie, qui détient le capital, et le prolétariat, qui vend sa force de travail.
     lien: notions/lutte_des_classes.md
+    image:
 
   - nom: matérialisme
     definition: >
       C'est la *matière* (et notamment les modes de production), et non les *idées*, qui font l'Histoire.
     lien: notions/materialisme.md
+    image:
 
   - nom: moyens de production
     definition: >
       Ressources, comme les usines, les machines et les terres, utilisées pour produire des biens et des services dans une économie.
     lien: notions/moyens_de_production.md
+    image: img/moyens_de_production.png
 
   - nom: socialisme
     definition: >
       Système socio-économique visant à l'abolition de la propriété privée des moyens de production pour une distribution plus égalitaire des richesses 
       (n'a rien à voir avec le PS actuel).
     lien: notions/socialisme.md
+    image:
